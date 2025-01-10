@@ -1,7 +1,7 @@
 # fish_pipeline
 ## Prerequisites
 - Create a conda environment named fish_pipeline with the necessary packages (listed in fish_pipeline.yml).
-- Download the directory `Fiji.app`, or install ImageJ locally from scratch, followed by installing the Radial Symmetry plugin.
+- Install ImageJ locally from scratch, followed by installing the Radial Symmetry plugin.
 - Have the slurm workload manager set up.
 - The `wrapper_scripts` directory contains the wrapper scripts for running the pipeline:
    * `sbatch_RS_filter_spots.sh` (line 12): specify path pointing to ImageJ and the fish_pipeline folder containing wrapper scripts
