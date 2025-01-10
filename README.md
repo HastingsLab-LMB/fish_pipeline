@@ -9,7 +9,7 @@
 - The `cellpose_model`directory contains the trained model for segmenting cells enriched for clock gene expression.  
 
 ## Running pipeline on test dataset
-1. Obtain test dataset from this [link] (https://figshare.com)
+1. Obtain test dataset from this [link](https://figshare.com)
 2. Specify the appropriate variables/parameters within the following files (can be found within the test dataset folder):
   -	`spots_channel.csv`
     * 1st column: channel name
