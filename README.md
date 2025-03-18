@@ -5,11 +5,10 @@
 - Have the slurm workload manager set up.
 - The `wrapper_scripts` directory contains the wrapper scripts for running the pipeline:
    * `sbatch_RS_filter_spots.sh` (line 12): specify path pointing to ImageJ and the fish_pipeline folder containing wrapper scripts
-   *  `sbatch_RS_wrapper.sh` (line 13): specify path pointing to ImageJ
-- The `cellpose_model`directory contains the trained model for segmenting cells enriched for clock gene expression.  
+   *  `sbatch_RS_wrapper.sh` (line 13): specify path pointing to ImageJ 
 
 ## Running pipeline on test dataset
-1. Obtain test dataset from this [figshare](https://figshare.com)
+1. Obtain test dataset and cellpose model from this [figshare]([https://figshare.com](https://figshare.com/projects/2025_crustacean_clock_cell_rhythms/240869))
 2. Specify the appropriate variables/parameters within the following files (can be found within the test dataset folder):
   -	`spots_channel.csv`
     * 1st column: channel name
